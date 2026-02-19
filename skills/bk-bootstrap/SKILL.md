@@ -49,6 +49,7 @@ Do you know exactly what to build?
 |-------|----------|--------|
 | **bk-execute** | Execute plan with subagents | Implemented code in worktree |
 | **bk-implement-rust** | Implement Rust code | Code + tests + markers |
+| **bk-implement-typescript** | Implement TypeScript code | Code + tests + markers |
 | **bk-tdd** | Test-driven development | Tests + implementation |
 | **bk-debug** | Systematic debugging | Root cause + fix |
 | **bk-verify-completion** | Pre-commit quality check | Pass/fail status |
@@ -137,6 +138,7 @@ bk-verify --scope=full → bk-ship
 | Debug systematically | `bk-debug` |
 | Use TDD | `bk-tdd` |
 | Implement Rust code | `bk-implement-rust` |
+| Implement TypeScript code | `bk-implement-typescript` |
 | Check before commit | `bk-verify-completion` |
 | Check spec compliance | `bk-verify` |
 | Finish branch | `bk-finish-branch` |
